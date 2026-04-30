@@ -1,0 +1,22 @@
+[
+  {
+    "name": "2:1 IPA:water from 91% IPA",
+    "category": "solvent_mix",
+    "inputs": {"final_volume_ml": 300, "target_fraction": 0.6667, "stock_purity_fraction": 0.91}
+  },
+  {
+    "name": "1:1 ethanol:water from 95% ethanol",
+    "category": "solvent_mix",
+    "inputs": {"final_volume_ml": 200, "target_fraction": 0.5, "stock_purity_fraction": 0.95}
+  },
+  {
+    "name": "Prepare 0.5 M solution from solid",
+    "category": "molarity",
+    "inputs": {"target_m": 0.5, "molar_mass_g_per_mol": 58.44, "volume_l": 0.1}
+  },
+  {
+    "name": "Generic C1V1 dilution",
+    "category": "dilution",
+    "inputs": {"c1": 2.0, "v1": null, "c2": 0.5, "v2": 100.0}
+  }
+]
